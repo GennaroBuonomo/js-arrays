@@ -15,10 +15,10 @@ const fourthTeacher = teachers[4];
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
 teachers[5] = "Patrick";
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = teachers[teachers.length - 1];
+const lastTeacher = teachers.pop();
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = null;
+const firstTeacher = eachers.shift();
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 
